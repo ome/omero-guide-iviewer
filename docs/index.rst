@@ -16,3 +16,8 @@ Contents:
 
    iviewer_viewing
    iviewer_rois
+
+Contribute
+----------
+
+Changes to the documentation or the materials should be made directly in the `omero-guide-iviewer repository <https://github.com/ome/omero-guide-iviewer>`_.
