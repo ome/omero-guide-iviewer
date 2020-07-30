@@ -1,5 +1,5 @@
-OMERO.iviewer
-=============
+OMERO.iviewer (tmp)
+===================
 
 We introduce
 OMERO.iviewer, a 2D viewer which can
