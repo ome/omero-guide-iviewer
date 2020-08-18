@@ -23,6 +23,8 @@ We will show here:
 
 -  How to zoom and rotate the image
 
+-  How to create a maximum intensity Projection and save it
+
 -  How to save a current viewport as png in OMERO.iviewer
 
 -  How to use and synchronize multiple viewer windows inside OMERO.iviewer
@@ -78,25 +80,41 @@ Step-by-Step
 
    |image0b|
 
+#. Make a maximum intensity Projection of a z-stack by clicking the ``stack`` icon |image0c| in the bottom-left corner of the central pane, just under the z-slider.
+
+#. Note that on the vertical z-slider, there are now two knobs. Adjust the knobs to select the desired portion of the z-stack to be projected. The central pane will show a preview of your Projection.
+
+#. Save the Projection by selecting ``File > Save Projection as new image``. In the following dialog, click either ``Navigate to Image in Webclient`` or ``Open Image in iviewer``.
+
 #. Save the viewport by selecting in the top-left corner ``File > Save Viewport as PNG``.
 
 #. Compare the two channels of one of the Images in multi-image view:
 
-    - Double-click on the thumbnail of the already opened Image in the left-hand pane of the viewer. This will open the Image again in a new window.
+   - Double-click on the thumbnail of the already opened Image in the left-hand pane of the viewer. This will open the Image again in a new window.
 
-    - Select one of the windows and in the right-hand pane switch the green channel off.
+   - Select one of the windows and in the right-hand pane switch the green channel off.
 
-    - On the other window, switch the blue channel off.
+   - On the other window, switch the blue channel off.
 
        .. image:: images/Iviewer12.png
 
-#. We can synchronize the viewers by adding them both to the same ``sync Group``.
+#. Work with images in the multi-view mode. There are several ways to get full views of the images from the thumbnails in the left-hand column.
 
-    - Click the ``sync`` icon \ |image13| in the top-left corner and select the first option in the dropdown menu.
+   - ``Click`` on a thumbnail to open the corresponding image in the currently active central pane viewer window, replacing the image in that viewer window.
 
-    - Repeat for the other viewer.
+   - ``Double-click`` on a thumbnail to open a new central pane viewer window with the double-clicked thumbnail image.
 
-    - Now both Images have the ``Z/T`` and ``View`` (zoom and position of viewport) synchronized.
+   - ``Drag and drop`` a thumbnail into an existing central pane viewer window to replace the image in that window with the image corresponding to the thumbnail which you just dropped into it.
+
+   - ``Drag and drop`` a thumbnail onto the white canvas area in the central pane to create a new viewer window.
+
+#. We can synchronize the central pane viewers by adding them both to the same ``sync Group``.
+
+   - Click the ``sync`` icon \ |image13| in the top-left corner and select the first option in the dropdown menu.
+
+   - Repeat for the other viewer.
+
+   - Now both Images have the ``Z/T`` and ``View`` (zoom and position of viewport) synchronized.
 
        .. image:: images/Iviewer14.png
 
@@ -108,6 +126,8 @@ Step-by-Step
 .. |image0b| image:: images/Iviewer0b.png
    :width: 2.7in
    :height: 3in
+.. |image0c| image:: images/Iviewer0c.png
+   :width: 0.4in
 .. |image1| image:: images/Iviewer1.png
    :width: 0.79167in
    :height: 0.27083in
@@ -130,7 +150,7 @@ Step-by-Step
 .. |image12| image:: images/Iviewer12.png
    :width: 0.46875in
    :height: 0.28125in
-.. |image13| image:: images/Iviewer13.png   
+.. |image13| image:: images/Iviewer13.png
    :width: 0.46875in
    :height: 0.28125in
 .. |image14| image:: images/Iviewer14.png
@@ -139,7 +159,4 @@ Step-by-Step
 .. |image15| image:: images/Iviewer15.png
    :width: 2.91667in
    :height: 0.29167in
-
-
-
 
