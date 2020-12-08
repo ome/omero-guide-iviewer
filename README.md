@@ -1,4 +1,13 @@
-# This is a template useful to create guides
+# User guide for OMERO.figure
+[![Documentation Status](https://readthedocs.org/projects/omero-guide-iviewer/badge/?version=latest)](https://omero-guides.readthedocs.io/en/latest/iviewer/docs/index.html)
+
+
+[![Actions Status](https://github.com/ome/omero-guide-iviewer/workflows/sphinx/badge.svg)](https://github.com/ome/omero-guide-figure/actions)
+
+The documentation is deployed at [How to use OMERO.iviewer](https://omero-guides.readthedocs.io/en/latest/iviewer/docs/index.html).
+
+This guide demonstrates how to use the User Interface of the OMERO.iviewer web app.
+
 
 This a Sphinx based documentation. 
 If you are unfamiliar with Sphinx, we recommend that you first read 
