@@ -1,4 +1,4 @@
-# User guide for OMERO.figure
+# User guide for OMERO.iviewer
 [![Documentation Status](https://readthedocs.org/projects/omero-guide-iviewer/badge/?version=latest)](https://omero-guides.readthedocs.io/en/latest/iviewer/docs/index.html)
 
 
