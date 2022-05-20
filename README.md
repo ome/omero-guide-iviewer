@@ -1,7 +1,6 @@
 # Guide on how to use the Web plugin OMERO.iviewer
 
 [![Documentation Status](https://readthedocs.org/projects/omero-guide-iviewer/badge/?version=latest)](https://omero-guides.readthedocs.io/en/latest/iviewer/docs/index.html)
-
 [![Actions Status](https://github.com/ome/omero-guide-iviewer/workflows/sphinx/badge.svg)](https://github.com/ome/omero-guide-figure/actions)
 
 The documentation is deployed at [How to use OMERO.iviewer](https://omero-guides.readthedocs.io/en/latest/iviewer/docs/index.html)
