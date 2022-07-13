@@ -130,9 +130,3 @@ Step-by-Step
 .. |image15| image:: images/Iviewer15.png
    :width: 2.91667in
    :height: 0.29167in
-.. |image16| image:: images/Iviewer16.png
-   :width: 0.22917in
-   :height: 0.1875in
-.. |image17| image:: images/Iviewer17.png
-   :width: 0.78125in
-   :height: 0.23958in
