@@ -80,7 +80,7 @@ Step-by-Step
 
    |image0b|
 
-#. The ``Interpolate`` option provides a smoother rendering of the image in the viewer. Unchecking this will show the pixels at the same resolution as the original data.
+#. The ``Interpolate`` option provides a smoother rendering of the image in the viewer. Unchecking this will show the pixels at the same resolution as the original data. This option has no affect on the underlying pixel intensity values.
 
 #. Make a maximum intensity Projection of a z-stack by clicking the ``stack`` icon |image0c| in the bottom-left corner of the central pane, just under the z-slider.
 
